@@ -18,6 +18,8 @@ https://ubuntu.com/tutorials/enabling-gpu-acceleration-on-ubuntu-on-wsl2-with-th
 
 launch wsl from cmd: `c:\Windows\system32\wsl`
 
+FXFpML trial run: `autotrain llm --train --project_name FXFpML --model abhishek/llama-2-7b-hf-small-shards --data_path YL95/FXFpML --use_peft --use_int4 --trainer sft --learning_rate 2e-4`
+
 ## version check in cmd or powershell(admin)
 
 check wsl version: `wsl --list --verbose`
