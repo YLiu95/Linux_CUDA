@@ -18,6 +18,8 @@ https://ubuntu.com/tutorials/enabling-gpu-acceleration-on-ubuntu-on-wsl2-with-th
 
 launch wsl from cmd: `c:\Windows\system32\wsl`
 
+to user directory: `cd /mnt/c/Users/ISDA`
+
 FXFpML trial run: `autotrain llm --train --project_name FXFpML --model abhishek/llama-2-7b-hf-small-shards --data_path YL95/FXFpML --use_peft --use_int4 --trainer sft --learning_rate 2e-4`
 
 access wsl files in file explorer: `\\wsl$`
@@ -37,6 +39,9 @@ check python version: `python3 --version`
 check pip version: `pip3 --version`
 
 ## sys info
+
+`df -h`: disk usage for all mounted filesystems in a format that's easy to read 
+>**Filesystem: /dev/sdc is likely your main WSL filesystem.**
 
 `uname -m && cat /etc/*release`: Get system information
 
