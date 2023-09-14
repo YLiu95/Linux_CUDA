@@ -63,14 +63,22 @@ check pip version: `pip3 --version`
 
 ![](https://placehold.co/15x15/f03c15/f03c15.png) **in cmd, not wsl**
 
-
+Terminate Running Instances
 ```diff
-
+wsl --terminate Ubuntu
 ```
-`wsl --terminate Ubuntu`: Terminate Running Instances.
 
-`wsl --unregister Ubuntu`: Uninstall the Distribution
+Uninstall the Distribution
+```diff
+wsl --unregister Ubuntu
+```
 
-`wsl --list`: Confirm Deletion
+Confirm Deletion
+```diff
+wsl --list
+```
 
-`wsl --install`: Reinstall 
+Reinstall 
+```diff
+wsl --install
+```
