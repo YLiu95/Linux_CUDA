@@ -59,3 +59,12 @@ check pip version: `pip3 --version`
 
 `ls -ltr`: List files with additional details
 
+## delete everything on wsl and reinstall wsl
+
+`wsl --terminate Ubuntu`: Terminate Running Instances.
+
+`wsl --unregister Ubuntu`: Uninstall the Distribution
+
+`wsl --list`: Confirm Deletion
+
+`wsl --install`: Reinstall 
