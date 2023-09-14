@@ -61,6 +61,12 @@ check pip version: `pip3 --version`
 
 ## delete everything on wsl and reinstall wsl
 
+![](https://placehold.co/15x15/f03c15/f03c15.png) **in cmd, not wsl**
+
+
+```diff
+
+```
 `wsl --terminate Ubuntu`: Terminate Running Instances.
 
 `wsl --unregister Ubuntu`: Uninstall the Distribution
